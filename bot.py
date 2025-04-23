@@ -3,7 +3,7 @@ from modules.loader import load_context
 from telebot import TeleBot
 import os
 
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+BOT_TOKEN = os.getenv("8174756157:AAGECPZ3ctcaGE86EQVfpnoR3v8zUqdvtxA")
 if not BOT_TOKEN:
     raise ValueError("TELEGRAM_BOT_TOKEN not set.")
 bot = TeleBot(BOT_TOKEN)
