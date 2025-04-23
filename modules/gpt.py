@@ -2,7 +2,7 @@ import requests
 import os
 from utils.embedder import Embedder
 
-GPT_API_KEY = os.getenv("GPT_API_KEY")
+GPT_API_KEY = os.getenv("pk-MyrMmrmzayIAQmZkvKkSSIurEJqqEAMCVtyuCJVEqyGbBwym")
 if not GPT_API_KEY:
     raise ValueError("GPT_API_KEY not set.")
 GPT_API_URL = "https://api.pawan.krd/v1/chat/completions"
